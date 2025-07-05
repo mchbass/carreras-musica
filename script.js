@@ -51,12 +51,13 @@ window.onclick = e => {
 
 // Cargar CSV externamente
 fetch('carreras.csv')
-  .then(res => res.text())
-  .then(texto => {
-    const filas = Papa.parse(texto, { header: true, delimiter: ';', skipEmptyLines: true }).data;
-    procesarDatos(filas);
-  })
-  .catch(err => console.error('Error al cargar el CSV:', err));
+  .then(response => response.text())
+  .then(csvRaw => {
+    const filas = Papa.parse(csvRaw, {
+      header: true,
+      delimiter: ';',
+      skipEmptyLines: true
+    }).data;
 
 // Procesamiento principal
 function procesarDatos(filas) {
