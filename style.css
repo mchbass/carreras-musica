@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fdf7f0;
+  color: #c14924;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100vh;
+  background: #fff6f0;
+  box-shadow: -2px 0 5px rgba(193, 73, 36, 0.25);
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 999;
+
+  /* Oculto inicialmente */
+  transform: translateX(100%);
+  opacity: 0;
+  display: none;
+
+  /* Transiciones suaves */
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+#sidebar.open {
+  display: block;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+#close-btn {
+  float: right;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #c14924;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  color: #c14924;
+}
+
+.uni {
+  color: #b14120;
+  font-size: 0.9em;
+}
+
+.tipo {
+  color: #c14924;
+  background: #fbe6d6;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.75em;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.anio {
+  color: #a43d1b;
+}
+
+#top-left-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+  display: flex;
+  gap: 10px;
+}
+
+.control-btn {
+  font: 14px "Inter", sans-serif;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #c14924;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.control-btn:hover {
+  background: #8b2e17;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff6f0;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(193, 73, 36, 0.2);
+  z-index: 1;
+  border-radius: 6px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.dropdown-content .prov-btn {
+  color: #8b2e17;
+  background: transparent;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content .prov-btn:hover {
+  background-color: #fbe6d6;
+}
+
+.show {
+  display: block;
+}
+
+#chart-btn {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  z-index: 1001;
+  background: #c14924;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font: 14px "Inter", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#chart-btn:hover {
+  background: #8b2e17;
+}
+
+#chart-panel {
+  position: absolute;
+  left: 8px;
+  bottom: 52px;
+  z-index: 1000;
+  width: 320px;
+  height: 250px;
+  padding: 12px;
+  background: #fff6f0;
+  border: 2px solid #f7a462;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(193, 73, 36, 0.25);
+}
+
+#chart-panel.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: #fff6f0;
+  margin: auto;
+  padding: 20px 30px;
+  border: 1px solid #c14924;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(193, 73, 36, 0.4);
+  position: relative;
+  color: #8b2e17;
+}
+
+.modal-content h3 {
+  color: #c14924;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.close-modal {
+  color: #8b2e17;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: #c14924;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  z-index: 1500;
+}
+
+#carreras-list a {
+  color: #006a94;
+  text-decoration: underline;
+}
+
+#carreras-list a:hover {
+  color: #004a6a;
+}
+
+#carreras-list details details {
+  margin-left: 20px;
+  border-left: 2px solid #a6471d;
+  padding-left: 8px;
+  background: #fff0e6;
+  border-radius: 4px;
+}
+
+/* Modal grande para estadísticas */
+.modal-content.large {
+  width: 95%;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+/* Contenedor de gráficos lado a lado */
+.charts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+/* Gráfico de torta */
+.charts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.chart-wrapper {
+  flex: 1 1 45%;
+  max-width: 48%;
+}
+
+.chart-wrapper canvas {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+
+.chart-wrapper:first-child {
+  max-width: 400px;
+}
+
+
+/* —————— Responsive para móviles y tablets —————— */
+
+@media (max-width: 768px) {
+  /* Sidebar adaptable */
+  #sidebar {
+    width: 90vw;
+    padding: 15px;
+    font-size: 0.95em;
+  }
+
+  /* Modal grande */
+  .modal-content.large {
+    width: 95vw;
+    padding: 20px;
+  }
+
+  /* Gráficos uno abajo del otro */
+  .charts-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #stats-pie,
+  #stats-bar {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Botones más cómodos al tacto */
+  .control-btn {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mapeo de Carreras de Música en Universidades Públicas de Argentina</title>
+  <link rel='stylesheet' href='https://unpkg.com/leaflet/dist/leaflet.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapeo de Carreras de Música</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <div id="top-left-controls">
+    <div class="dropdown">
+      <button id="provinces-btn" class="control-btn">Provincias ▼</button>
+      <div id="provinces-dropdown-content" class="dropdown-content"></div>
+    </div>
+    <button id="stats-btn" class="control-btn">Estadísticas</button>
+    <button id="credits-btn" class="control-btn">Créditos</button>
+  </div>
+
+  <div id="sidebar" class="closed">
+    <button id="close-btn">✖</button>
+    <h2 id="sidebar-title"></h2>
+    <div id="carreras-list"></div>
+  </div>
+
+  <!-- Créditos -->
+  <div id="credits-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal-btn" class="close-modal">✖</span>
+      <h3>Mapeo de Carreras de Música en Universidades Públicas de Argentina</h3>
+      <p>
+        Realizado por el Proyecto de Investigación PROIPRO Nº 04-2323: “Hacia una educación musical decolonial de nuestras músicas populares” FCH - UNSL
+      </p>
+      <p>
+        <strong>Director:</strong> Cándido Sanz García<br />
+        <strong>Co-Director:</strong> Gustavo Torres
+      </p>
+      <p><strong>Equipo de investigación:</strong></p>
+      <ul>
+        <li>Simón De la Penna</li>
+        <li>Ramón Sanz Ferramola</li>
+        <li>Mauro Franzen</li>
+        <li>Diego Carrizo</li>
+        <li>Julián Davín</li>
+        <li>Victoria Salama</li>
+        <li>Marcelo Reinoso</li>
+        <li>Darío Matta</li>
+        <li>Alejandro Gómez Montiel</li>
+        <li>Daniel Milone</li>
+        <li>Nailé Antune Perinelli</li>
+      </ul>
+      <p>
+        <strong>Diseño Web:</strong> Mariano Fernandez<br /><br />
+        <strong>Mail de contacto:</strong> candidosanzgarcia@gmail.com
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal Estadísticas -->
+  <div id="stats-modal" class="modal hidden">
+    <div class="modal-content large">
+      <span id="close-stats-btn" class="close-modal">✖</span>
+      <h3>Estadísticas Generales de Carreras</h3>
+      <div class="charts-container">
+        <div class="chart-wrapper">
+        <canvas id="stats-pie"></canvas>
+  </div>
+  <div class="chart-wrapper">
+    <canvas id="stats-bar"></canvas>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js'></script>
+<script src='https://unpkg.com/leaflet/dist/leaflet.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
