@@ -324,4 +324,3 @@ new Chart(barCtx, {
     chartsRendered = true;
   }
 };
-}
