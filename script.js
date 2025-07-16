@@ -224,7 +224,7 @@ link2.href = 'https://humanas.unsl.edu.ar';
 link2.target = '_blank';
 link2.rel = 'noopener';
 const logo2 = document.createElement('img');
-logo2.src = 'https://humanas.unsl.edu.ar/wp-content/uploads/2022/04/cropped-logo-FCH-UNSL-transparente-chico-1.png';
+logo2.src = 'https://www.argonautas.unsl.edu.ar/FCHLogo.png';
 logo2.alt = 'Logo FCH';
 logo2.style.height = '50px';
 link2.appendChild(logo2);
