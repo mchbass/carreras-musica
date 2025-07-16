@@ -62,10 +62,8 @@ Santa Fé;Rosario;UNR;Facultad de Humanidades;Tecnicatura Universitaria en Inter
 San Luis;San Luis;UNSL;Faculdad de Ciencias Humanas;Tecnicatura Universitaria en Producción Musical;Popular;2018;https://drive.google.com/file/d/1SMXlzh7K7_gGi98HXu89csVwY4ix6Kdu/view?usp=drive_link ;
 San Luis;San Luis;UNSL;Facultad de Ciencias Humanas;Profesorado Universitario en Música Popular Latinoamericana;Popular;2016;https://drive.google.com/file/d/1y5OHgCPejpVuqqXm29g2dKjLEUW3FsEW/view?usp=drive_link ;
 Córdoba;Villa Maria;UNVM;Instituto de Ciencias Humanas;Licenciatura en Composición Musical con Orientación en Música Popular;Popular;2005;https://drive.google.com/file/d/15O9HMYroMrd0ars--IKq2vIWC4jkdITC/view?usp=drive_link ;
-Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Composición Musical con Orientación en Lenguajes Contemporáneos
-";Académica;(el plan del drive es de 2010 ;https://artes.unc.edu.ar/files/LCM-ORIEN-LENG-CONT-RHCS_1039_2010-lic-en-composicion.pdf ;
-Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Dirección Coral
-";Académica;2013;https://artes.unc.edu.ar/files/Plan-estudios-Lic-Direccion-Coral.pdf ;
+Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Composición Musical con Orientación en Lenguajes Contemporáneos";Académica;(el plan del drive es de 2010 ;https://artes.unc.edu.ar/files/LCM-ORIEN-LENG-CONT-RHCS_1039_2010-lic-en-composicion.pdf ;
+Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Dirección Coral";Académica;2013;https://artes.unc.edu.ar/files/Plan-estudios-Lic-Direccion-Coral.pdf ;
 Córdoba;Córdoba;UNC;Facultad de Artes;Licenciatura en Interpretación Musical (Piano);Académica;2017;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/LIC.-INTERPRETACION-INSTRUMENTAL-RD_136_2012_organized.pdf ;
 Córdoba;Córdoba;UNC;Facultad de Artes;Licenciatura en Interpretación Musical (Violín);Académica;2017;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/LIC.-INTERPRETACION-INSTRUMENTAL-RD_136_2012_organized.pdf ;
 Córdoba;Córdoba;UNC;Facultad de Artes;Licenciatura en Interpretación Musical (Viola);Académica;2017;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/LIC.-INTERPRETACION-INSTRUMENTAL-RD_136_2012_organized.pdf ;
@@ -75,8 +73,7 @@ Córdoba;Córdoba;UNC;Facultad de Artes;Profesorado   en Interpretación Musical
 Córdoba;Córdoba;UNC;Facultad de Artes;Profesorado   en Interpretación Musical (Viola);Académica;2011;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/LIC.-INTERPRETACION-INSTRUMENTAL-RD_136_2012_organized.pdf;
 Córdoba;Córdoba;UNC;Facultad de Artes;Profesorado   en Interpretación Musical (Violoncello);Académica;2011;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/LIC.-INTERPRETACION-INSTRUMENTAL-RD_136_2012_organized.pdf;
 Córdoba;Córdoba;UNC;Facultad de Artes;Profesorado en Educación Musical;Académica;2011;https://artes.unc.edu.ar/files/PEM-2013-RHCD_151_2013.pdf ;
-Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Educación Musical
-";Académica;2024;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/RHCS_810_2012-Lic-en-Educ-Musical.pdf ;
+Córdoba;Córdoba;UNC;Facultad de Artes;"Licenciatura en Educación Musical";Académica;2024;https://artes.unc.edu.ar/wp-content/blogs.dir/2/files/sites/2/RHCS_810_2012-Lic-en-Educ-Musical.pdf ;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Violín;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Viola;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Violonchello;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
@@ -94,11 +91,9 @@ Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Percusión;Aca
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Piano;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Guitarra;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Órgano;Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
-Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;"Licenciatura en Dirección Coral
-";Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
+Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;"Licenciatura en Dirección Coral";Académica;2010 (mod 2018);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Canto;Académica;2010 (mod. 2014);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
-Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;"Licenciatura en Composición Musical 
-";Académica;2010 (mod.2014);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
+Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;"Licenciatura en Composición Musical";Académica;2010 (mod.2014);https://drive.google.com/drive/folders/1_QpyOIT9AR27L0BM6erPSPKjEdgVj8Pa?usp=sharing;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Música Popular. Orientación Guitarra.;Popular;2003;https://drive.google.com/file/d/1HKOeaS1HCcjGeHDDaMUptnRWBSmgW2do/view?usp=drive_link;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Música Popular. Orientación Teclados.;Popular;2003;https://drive.google.com/file/d/1s6WY0ftzwnMh5X7bAbSsTl4NKNKOC9Ny/view?usp=drive_link;
 Mendoza;Mendoza;UNCuyo;Facultad de Arte y Diseño;Licenciatura en Música Popular. Orientación Percusión.;Popular;2003;https://drive.google.com/file/d/1s6WY0ftzwnMh5X7bAbSsTl4NKNKOC9Ny/view?usp=drive_link;
@@ -183,48 +178,27 @@ Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;Profes
 Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;Profesorado de Artes en Música;Académica;2017;https://drive.google.com/file/d/1GR1NjDdvZLZ1VyfNkv5VdxqhCB4ZG_ez/view?usp=drive_link ;
 Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;Profesorado de Artes musicales con orientación en composición ;Académica;2022;https://drive.google.com/file/d/1WBDV7g3PVF5EJytU7E-uSkFHsMUADFMv/view?usp=drive_link ;
 Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;Profesorado de Artes Musicales con orientación en composición con medios electroacústicos ;Académica con menciones a lo popular;2022;https://drive.google.com/file/d/1VJFHBNPdKX5DCHFHhQpbObaOr_sf9M1G/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Piano
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Clave
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Órgano
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Violín
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Viola
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Violoncello
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Contrabajo
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Flauta Dulce
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Flauta Traversa
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Oboe
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Clarinete
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Fagot
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Corno
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Trompeta
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Tuba
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Trombón
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Percusión
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Guitarra
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Arpa
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Saxofón
-";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
-Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Bandoneón
-";Académica con menciones a lo popular;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Piano";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Clave";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Órgano";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Violín";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Viola";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Violoncello";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Contrabajo";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Flauta Dulce";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Flauta Traversa";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Oboe";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Clarinete";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Fagot";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Corno";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Trompeta";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Tuba";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Trombón";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Percusión";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Guitarra";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Arpa";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Saxofón";Académica;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
+Bs. As.;CABA;UNA;Área Transdepartamental de Formación Docente de la UNA;"Profesorado de Artes Musicales con orientación en Bandoneón";Académica con menciones a lo popular;2022;https://drive.google.com/file/d/1fBeAY7xUIU_bw6RPhqNOsBFzvN4v4jc8/view?usp=drive_link ;
 Bs. As.;CABA;UNA;Departamento de Artes Musicales y Sonoras;Tecnicatura en Composición de Arreglos Musicales;Académica y popular;2019;https://drive.google.com/file/d/1WbeC4f5_sjbhk1bluZQgwmWZM5JS3Zzs/view?usp=drive_link ;
 Bs. As.;CABA;UNA;Departamento de Artes Musicales y Sonoras;Lincenciatura en Artes Musicales con Orientación en Dirección Orquestal - También otorga título intermedio de Director Orquestal;Académica;2017;https://drive.google.com/file/d/1Ofy7X7FzFi3r0nP4Jr2SQWxcFA5IVWo2/view?usp=drive_link ;
 Bs. As.;CABA;UNA;Departamento de Artes Musicales y Sonoras;"Licenciatura en Música con orientación en Canto - También otorga el título intermedio de ""Interprete de canto""";Académica;2017;https://drive.google.com/file/d/1gLna8RJ-ZH6Mf9xIH59eYT_1q3Gk_Lis/view?usp=drive_link ;
