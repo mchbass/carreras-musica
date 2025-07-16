@@ -242,7 +242,7 @@ const estadisticas = {
     'Popular con mención a lo académico',
     'Popular'
   ],
-  values: [175, 23, 5, 4, 19]
+  values: [175, 23, 5, 4, 18]
 };
 
 const totalCarreras = estadisticas.values.reduce((a, b) => a + b, 0);
