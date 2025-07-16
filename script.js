@@ -87,7 +87,10 @@ function procesarDatos(filas) {
           ciudad = (f.CIUDAD || '').trim(),
           uni = (f.UNIVERSIDAD || '').trim(),
           carrera = (f.CARRERA || '').trim();
-    if (!prov || !ciudad || !uni || !carrera) return;
+    if (!prov || !ciudad || !uni || !carrera) {
+      console.log("Fila incompleta:", f); // <-- LOGUEA SI ESTÁ MAL
+      return;
+    }
 
     const nodo = {
       carrera,
@@ -135,8 +138,12 @@ function procesarDatos(filas) {
     iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
   });
 
+  const keys = Object.keys(ciudadesCarreras);
+  console.log("Claves de ciudadesCarreras:", keys);
+
   Object.entries(ciudadesCarreras).forEach(([ciudad, uniObj]) => {
     const pos = coordsCiudades[ciudad.toUpperCase()];
+    console.log("Loop ciudad:", ciudad, "->", "KEY:", ciudad.toUpperCase(), "POS:", pos);
     if (!pos) { console.warn('⚠️ Falta coordenada:', ciudad); return; }
     L.marker(pos, { icon: orangeIcon })
       .addTo(map)
