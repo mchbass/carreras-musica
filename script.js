@@ -177,6 +177,7 @@ function procesarDatos(filas) {
 }
 
 console.log("Filas parseadas:", filas);
+procesarDatos(filas);
 
 // Cargar logos en créditos
 const logos = document.createElement('div');
