@@ -69,6 +69,7 @@ fetch('carreras.csv')
     // Llamar a la función solo si hay filas válidas
     if (filas && filas.length > 0) {
       procesarDatos(filas);
+      console.log("PROCESAR DATOS OK");   
     } else {
       console.error("❌ No se encontraron filas válidas en el CSV.");
     }
