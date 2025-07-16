@@ -214,7 +214,7 @@ link1.href = 'https://www.unsl.edu.ar';
 link1.target = '_blank';
 link1.rel = 'noopener';
 const logo1 = document.createElement('img');
-logo1.src = 'https://carreras.unsl.edu.ar/static/logo_unsl1.png';
+logo1.src = 'https://www.unsl.edu.ar/imagenes/logos/logo-unsl-negativo2.png';
 logo1.alt = 'Logo UNSL';
 logo1.style.height = '50px';
 link1.appendChild(logo1);
