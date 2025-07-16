@@ -51,13 +51,31 @@ window.onclick = e => {
 
 // Cargar CSV externamente
 fetch('carreras.csv')
-  .then(response => response.text())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Error al cargar el CSV: ${response.status}`);
+    }
+    return response.text();
+  })
   .then(csvRaw => {
     const filas = Papa.parse(csvRaw, {
       header: true,
       delimiter: ';',
       skipEmptyLines: true
     }).data;
+
+    console.log("✅ Filas parseadas:", filas);
+
+    // Llamar a la función solo si hay filas válidas
+    if (filas && filas.length > 0) {
+      procesarDatos(filas);
+    } else {
+      console.error("❌ No se encontraron filas válidas en el CSV.");
+    }
+  })
+  .catch(error => {
+    console.error("❌ Error cargando carreras.csv:", error);
+  });
 
 // Procesamiento principal
 function procesarDatos(filas) {
@@ -175,9 +193,6 @@ function procesarDatos(filas) {
       .join('');
   }
 }
-
-console.log("Filas parseadas:", filas);
-procesarDatos(filas);
 
 // Cargar logos en créditos
 const logos = document.createElement('div');
