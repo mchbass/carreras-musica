@@ -267,7 +267,7 @@ statsBtn.onclick = () => {
         labels: estadisticas.labels.map((l, i) => `${l} (${porcentajes[i]}%)`),
         datasets: [{
           data: estadisticas.values,
-          backgroundColor: ['#c14924','#e07b39','#f2a65a','#a6471d','#d56a4e'],
+          backgroundColor: ['#c14924', '#a95f2c', '#8e8434', '#6ea840', '#4caf50'],
           borderColor: '#fff',
           borderWidth: 2
         }]
