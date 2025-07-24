@@ -237,10 +237,10 @@ document.querySelector('#credits-modal .modal-content').appendChild(logos);
 const estadisticas = {
   labels: [
     'Música académica',
-    'Música académica con mención a lo popular',
+    'Académica con mención a lo popular',
     'Académica y popular',
     'Popular con mención a lo académico',
-    'Popular'
+    'Música popular'
   ],
   values: [175, 23, 5, 4, 18]
 };
