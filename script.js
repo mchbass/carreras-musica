@@ -357,7 +357,7 @@ new Chart(barCtx, {
 };
 
 // ——— LEYENDA DE COLORES ———
-const legend = L.control({ position: 'bottomright' });
+const legend = L.control({ position: 'bottomleft' });
 
 legend.onAdd = function () {
   const div = L.DomUtil.create('div', 'info legend');
@@ -369,10 +369,10 @@ legend.onAdd = function () {
     'Popular': '#244EC1'
   };
 
-  div.innerHTML += '<h4>Tipo predominante</h4>';
+  div.innerHTML += '<h4 style="margin-bottom: 6px;">Tipo predominante</h4>';
   for (const [tipo, color] of Object.entries(tipos)) {
     div.innerHTML +=
-      `<i style="background:${color}; width: 12px; height: 12px; display:inline-block; margin-right: 6px;"></i> ${tipo}<br>`;
+      `<div><i style="background:${color}; width: 12px; height: 12px; display:inline-block; margin-right: 6px;"></i> ${tipo}</div>`;
   }
   return div;
 };
