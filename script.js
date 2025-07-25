@@ -134,9 +134,9 @@ function procesarDatos(filas) {
   // Mapeo de colores según tipo de carrera
 const tipoColorMap = {
   'Académica': '#c1244E',
-  'Académica con mención a lo popular': '#c14924',
+  'Académica con menciones a lo popular': '#c14924',
   'Académica y popular': '#c19724',
-  'Popular con mención a lo académico': '#24C197',
+  'Popular con menciones a lo académico': '#24C197',
   'Popular': '#244EC1'
 };
 
