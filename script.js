@@ -355,3 +355,27 @@ new Chart(barCtx, {
     chartsRendered = true;
   }
 };
+
+// ——— LEYENDA DE COLORES ———
+const legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function () {
+  const div = L.DomUtil.create('div', 'info legend');
+  const tipos = {
+    'Académica': '#c1244E',
+    'Académica con mención a lo popular': '#c14924',
+    'Académica y popular': '#c19724',
+    'Popular con mención a lo académico': '#24C197',
+    'Popular': '#244EC1'
+  };
+
+  div.innerHTML += '<h4>Tipo predominante</h4>';
+  for (const [tipo, color] of Object.entries(tipos)) {
+    div.innerHTML +=
+      `<i style="background:${color}; width: 12px; height: 12px; display:inline-block; margin-right: 6px;"></i> ${tipo}<br>`;
+  }
+  return div;
+};
+
+legend.addTo(map);
+
