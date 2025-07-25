@@ -334,3 +334,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.leaflet-control.legend {
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
