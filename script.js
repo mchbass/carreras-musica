@@ -133,11 +133,11 @@ function procesarDatos(filas) {
 
   // Mapeo de colores según tipo de carrera
 const tipoColorMap = {
-  'Música académica': '#c1244E',
+  'Académica': '#c1244E',
   'Académica con mención a lo popular': '#c14924',
   'Académica y popular': '#c19724',
   'Popular con mención a lo académico': '#24C197',
-  'Música popular': '#244EC1'
+  'Popular': '#244EC1'
 };
 
 // Marcadores por ciudad
