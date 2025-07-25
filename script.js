@@ -297,7 +297,7 @@ new Chart(barCtx, {
     datasets: [{
       label: 'Cantidad de carreras',
       data: estadisticas.values,
-      backgroundColor: '#c14924'
+      backgroundColor: ['#c1244E', '#c14924', '#c19724', '#24C197', '#244EC1']
     }]
   },
   options: {
