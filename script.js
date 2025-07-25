@@ -131,25 +131,48 @@ function procesarDatos(filas) {
     "SAN LUIS": [-33.295, -66.3356]
   };
 
-  const orangeIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
-    iconRetinaUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
-    shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
-    iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+  // Mapeo de colores según tipo de carrera
+const tipoColorMap = {
+  'Música académica': '#c1244E',
+  'Académica con mención a lo popular': '#c14924',
+  'Académica y popular': '#c19724',
+  'Popular con mención a lo académico': '#24C197',
+  'Música popular': '#244EC1'
+};
+
+// Marcadores por ciudad
+Object.entries(ciudadesCarreras).forEach(([ciudad, uniObj]) => {
+  const pos = coordsCiudades[ciudad.toUpperCase()];
+  if (!pos) {
+    console.warn('⚠️ Falta coordenada:', ciudad);
+    return;
+  }
+
+  // Contar cantidad por tipo
+  const tipos = {};
+  Object.values(uniObj).flat().forEach(({ tipo }) => {
+    tipos[tipo] = (tipos[tipo] || 0) + 1;
   });
 
-  const keys = Object.keys(ciudadesCarreras);
-  console.log("Claves de ciudadesCarreras:", keys);
+  // Tipo predominante
+  const tipoPredominante = Object.entries(tipos).sort((a, b) => b[1] - a[1])[0]?.[0];
+  const color = tipoColorMap[tipoPredominante] || '#999';
 
-  Object.entries(ciudadesCarreras).forEach(([ciudad, uniObj]) => {
-    const pos = coordsCiudades[ciudad.toUpperCase()];
-    console.log("Loop ciudad:", ciudad, "->", "KEY:", ciudad.toUpperCase(), "POS:", pos);
-    if (!pos) { console.warn('⚠️ Falta coordenada:', ciudad); return; }
-    L.marker(pos, { icon: orangeIcon })
-      .addTo(map)
-      .bindPopup(`<strong>${ciudad}</strong><br>${Object.values(uniObj).flat().length} carreras`)
-      .on('click', () => mostrarSidebarCiudad(ciudad, uniObj));
+  // Crear ícono personalizado
+  const icon = new L.DivIcon({
+    className: 'custom-marker',
+    html: `<div style="background:${color}; width:18px; height:18px; border-radius:50%; border:2px solid white; box-shadow:0 0 2px #000;"></div>`,
+    iconSize: [18, 18],
+    iconAnchor: [9, 9]
   });
+
+  // Agregar al mapa
+  L.marker(pos, { icon })
+    .addTo(map)
+    .bindPopup(`<strong>${ciudad}</strong><br>${Object.values(uniObj).flat().length} carreras`)
+    .on('click', () => mostrarSidebarCiudad(ciudad, uniObj));
+  });
+
 
   provincesDropdown.innerHTML = '';
   Object.keys(provinciasCarreras).sort().forEach(p => {
