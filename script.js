@@ -123,7 +123,7 @@ function procesarDatos(filas) {
     "JACHAL": [-30.2408, -68.7484],
     "CABA": [-34.6037, -58.3816],
     "CASEROS": [-34.6097, -58.5620],
-    "DEPARTAMENTO SAN MARTÍN": [-34.5646, -58.53],
+    "SAN MARTÍN": [-34.5646, -58.53],
     "LANÚS": [-34.7061, -58.3983],
     "AVELLANEDA": [-34.6638, -58.3645],
     "QUILMES": [-34.7201, -58.2542],
