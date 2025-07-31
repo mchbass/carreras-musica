@@ -372,7 +372,7 @@ legend.onAdd = function () {
   div.innerHTML += '<h4 style="margin-bottom: 6px;">Tipo predominante</h4>';
   for (const [tipo, color] of Object.entries(tipos)) {
     div.innerHTML +=
-      `<div><i style="background:${color}; width: 12px; height: 12px; display:inline-block; margin-right: 6px;"></i> ${tipo}</div>`;
+      `<div><i style="background:${color}; width: 12px; height: 10px; display:inline-block; margin-right: 6px;"></i> ${tipo}</div>`;
   }
   return div;
 };
