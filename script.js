@@ -362,11 +362,11 @@ const legend = L.control({ position: 'bottomleft' });
 legend.onAdd = function () {
   const div = L.DomUtil.create('div', 'info legend');
   const tipos = {
-    'Académica': '#c1244E',
+    'Música Académica': '#c1244E',
     'Académica con mención a lo popular': '#c14924',
     'Académica y popular': '#c19724',
     'Popular con mención a lo académico': '#24C197',
-    'Popular': '#244EC1'
+    'Música Popular': '#244EC1'
   };
 
   div.innerHTML += '<h4 style="margin-bottom: 6px;">Tipo predominante</h4>';
