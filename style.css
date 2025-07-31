@@ -336,7 +336,7 @@ body {
 }
 
 /* Referencias de los pines */
-.leaflet-control.legend {
+.info.legend {
   background: white;
   color: black;
   padding: 10px;
@@ -345,5 +345,9 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   margin-top: 0 !important;
+}
+
+.info.legend h4 {
+  margin: 0 0 6px 0;
 }
 
